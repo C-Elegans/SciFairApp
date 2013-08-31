@@ -71,6 +71,9 @@ public class Person {
         if (key == KeyEvent.VK_SPACE){
             if (y>=496)dy = 10;
         }
+        if (key == KeyEvent.VK_UP){
+            if (y>=496)dy = 10;
+        }
         
         if (key == KeyEvent.VK_LEFT) {
             dx = -2;
